@@ -2,6 +2,8 @@
 
 Scrimba Frontend Path Module 6: Responsive design - Solo Project
 
+Demo: https://nonroute.github.io/Learning-Journal/
+
 | Desktop Design| Mobile Design|
 |------------|-------------|
 |<img width="600" src="/images/desktop.png"/>|<img width="300" src="/images/mobile.png"/>|
