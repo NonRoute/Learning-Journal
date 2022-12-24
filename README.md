@@ -1,5 +1,12 @@
 # Learning-Journal
 
+Scrimba Frontend Path Module 6: Responsive design - Solo Project
+
+| Desktop Design| Mobile Design|
+|------------|-------------|
+|<img width="600" src="/images/desktop.png"/>|<img width="300" src="/images/mobile.png"/>|
+
+
 Quick start:
 
 ```
