@@ -1,0 +1,150 @@
+html, 
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 3.7rem;
+}
+
+header > .web-name {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header > .web-name > img {
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+header > .web-name > h1 {
+    margin-left: 3px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+header > nav {
+    font-weight: 600;
+    font-size: 0.75rem;
+    display: flex;
+    gap: 20px;
+}
+
+
+.top-blog-img {
+    background: #000 url("../images/article-image-hero.png");
+    color: #fff;
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;    
+    display: flex;
+}
+
+.top-blog-text {
+    align-self: flex-end;
+    padding: 0 20px;
+}
+
+.top-blog-text > .date {
+    font-size: 0.75em;
+    font-weight: 400;
+    margin: 0.25 0 0.5rem;
+}
+
+.top-blog-text > h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+}
+
+.top-blog-text > p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    margin-top: 0 0 1.56rem;
+    max-width: 650px;
+}
+
+.main-blogs {
+    margin: 24px 20px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.blog {
+    max-width: 450px;
+}
+
+.blog > img {
+    width: 100%
+}
+
+.blog > .date {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 14px 0 0;
+}
+
+.blog > h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 9px 0 0;
+}
+
+.blog > p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 9px 0 0 0;
+}
+
+.hide {
+    display: none;
+}
+
+.view-more {
+    margin: 2rem 0 3rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+footer {
+    background: #202020;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > .name {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #ECECEC;
+}
+
+footer > .copyright {
+    margin: 3px 0 0;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #D7D7D7;
+}
+
+@media (min-width: 600px) {
+    .main-blogs {
+        gap: 40px 20px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
